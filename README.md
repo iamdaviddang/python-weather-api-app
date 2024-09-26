@@ -1,4 +1,3 @@
-
 # Python Weather API App
 
 This is a simple command-line weather application built using Python. It fetches current weather data for a given city using the OpenWeatherMap API.
@@ -43,12 +42,12 @@ To run this project locally, you will need:
 
 3. **Set up your API key**:
 
-   Get your API key from [OpenWeatherMap](https://home.openweathermap.org/users/sign_up). 
+   Get your API key from [OpenWeatherMap](https://home.openweathermap.org/users/sign_up).
 
    Then, create a `.env` file in the root directory and add your API key as follows:
 
    ```bash
-   OPENWEATHER_API_KEY=your_api_key_here
+   API_KEY=your_api_key_here
    ```
 
 ## Usage
@@ -58,7 +57,7 @@ To run this project locally, you will need:
    To fetch the weather for a city, run the following command:
 
    ```bash
-   python app.py
+   python main.py
    ```
 
 2. **Enter the city name**:
@@ -82,7 +81,7 @@ Weather description: clear sky
 - Add support for fetching forecasts (next 5 days).
 - Add a graphical user interface (GUI).
 - Improve error handling (e.g., invalid city names, API key issues).
-  
+
 ## Contributing
 
 Feel free to contribute by submitting a pull request or opening an issue for discussion.
